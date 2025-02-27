@@ -28,3 +28,7 @@
 2. if you running locally, change .air.toml line 7-8 to:
    bin = "./bin/api.exe"
    cmd = "go build -o ./bin/ ./cmd/api/"
+
+## db connection on host / local machine
+
+1. use address localhost:5433 for connecting to db
